@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+<body>
+   <div id="container">
+    <div id="header">
+        <h1>Todo List</h1>
+    </div>
+    <div id="sidebar">
+       <div id="todos">
+        <button type="button" id="btntask">Add Task</button>
+        <div id="modal">
+            <h1 id="x"> X</h1>
+            <div id="dialog">
+                <form action="" id="form">
+                    <h3> Add New Task </h3>
+                    <input type="text" name="task" id="taskinput" placeholder="title">
+                    <input type="date" name="" id="date">
+                    <select name="" id="priorityvalue">
+                        <option value="low">low</option>
+                        <option value="Mediam"> Mediam</option>
+                        <option value="High">High</option>
+                    </select>
+                    <textarea name="" id="desc" cols="40" rows="10"></textarea>
+                    <button type="button" id="formbtn">Add Task</button>
+                </form>
+            </div>
+
+        </div>
+        <button type="button" id="btntodos">My Todos</button>
+        
+
+       </div>
+       <div id="projects">
+        <button type="button" id="btnpro">Add Project</button>
+        <div id="modalpro">
+        <h1 id="xpro">X</h1>
+
+            <div id="dialogpro">
+                <h2>Add Project</h2>
+                <input type="text" id="proname">
+                <button type="button" id="probtn">Add Project</button>
+            </div>
+        </div>
+        <div id="pronames">
+            
+        </div>
+
+       </div>
+    </div>
+    <div id="content">
+        <table>
+            <thead id="thead">
+                <tr id="tr">
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Priority</th>
+                    <th>Description</th>
+                    
+                </tr>
+            </thead>
+           
+        </table>
+        <div id="taskscards">
+
+        </div>
+    </div>
+   </div>
+</body>
+</html>
